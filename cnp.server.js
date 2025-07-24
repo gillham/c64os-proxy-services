@@ -6,6 +6,8 @@
 //systemctl start c64os.cnpserver.service
 //systemctl stop  c64os.cnpserver.service
 
+// add timestamps in front of log messages
+require('console-stamp')(console, '[HH:MM:ss.l]');
 
 console.log("Commodore Network Protocol (CNP) server");
 console.log("Copyright (c) 2024 OpCoders Inc.\n");

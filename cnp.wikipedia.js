@@ -10,6 +10,9 @@ const { JSDOM } = jsdom;
 const ELEMENT_NODE = 1;
 const TEXT_NODE    = 3;
 
+// add timestamps in front of log messages
+require('console-stamp')(console, '[HH:MM:ss.l]');
+
 //TODO: Gracefully handle articles with more than partCodes.length parts.
 
 const partCodes = ["0","1","2","3","4","5","6","7","8","9",
