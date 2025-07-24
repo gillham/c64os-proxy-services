@@ -1,0 +1,5 @@
+# nodejs modules
+node_modules/
+# nodejs package data
+package-lock.json
+package.json
